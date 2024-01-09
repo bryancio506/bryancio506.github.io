@@ -1,11 +1,11 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'Bryan Romero Chinchilla';
 
 export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'Costa Rica 🇨🇷',
+  City: 'San Jose',
+  Age: '27',
 };
 
 export const SKILLS = [
@@ -23,7 +23,7 @@ export const SKILLS = [
   // },
   {
     title: 'Backend Developer',
-    level: '54%',
+    level: '80%',
   },
   {
     title: 'Technical Blogger',
