@@ -1,21 +1,21 @@
 export const NAME = 'Bryan Romero Chinchilla';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `Full Stack Engineer | DevOps | IoT`;
 
 export const DETAILS = {
-  Residence: 'Costa Rica 🇨🇷',
+  Residence: '🇨🇷 Costa Rica',
   City: 'San Jose',
   Age: '27',
 };
 
 export const SKILLS = [
   {
-    title: 'MERN Stack Developer',
-    level: '75%',
+    title: 'Python Stack Developer',
+    level: '80%',
   },
   {
     title: 'React Developer',
-    level: '91%',
+    level: '60%',
   },
   // {
   //   title: 'Desktop Application Developer',
@@ -26,42 +26,42 @@ export const SKILLS = [
     level: '80%',
   },
   {
-    title: 'Technical Blogger',
+    title: 'DevOps',
     level: '83%',
   },
 ];
 
 export const TECH_STACK = [
+  'Python',
   'ReactJS',
   'JavaScript',
   'NextJS',
-  'TypeScript',
   'NodeJS',
-  'Redux',
-  'Zustand',
+  'Golang',
+  'GNU/Linux',
+  'Kubernetes',
   'CSS',
   'SCSS',
   'TailwindCSS',
-  'Ant Design',
-  'Material UI',
-  'Next UI',
+  'Nginx',
+  'MQTT',
+  'SOAP',
   'REST API',
   'MongoDB',
   'MySQL',
+  'MS SQL',
   'Git',
   'GitHub',
   'Jira',
-  'Figma',
-  'Adobe XD',
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'r0ch1bryan@gmail.com',
+  PHONE: '+50688615958',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+  GITHUB: 'https://github.com/bryancio506',
+  LINKEDIN: 'https://www.linkedin.com/in/bryan-romero-chinchilla-20b3001b5/',
+  TWITTER: '',
+  FACEBOOK: '',
 };

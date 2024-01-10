@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className="flex items-center md:items-center md:justify-around">
                         <div className="">
                             <div className="">
-                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, Check This Out!</h1>
+                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hi, Pura Vida!</h1>
                             </div>
                             <div className="">
                                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
@@ -40,7 +40,7 @@ const Banner = () => {
                 {/* details in row */}
                 <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
 
-                    <div className="flex items-center gap-x-1">
+                    {/* <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>10+</span>
                         <span className='text-xs text-Snow'>Completed Projects</span>
                     </div>
@@ -58,7 +58,7 @@ const Banner = () => {
                     <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>10+</span>
                         <span className='text-xs text-Snow'>Opensource Projects</span>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
