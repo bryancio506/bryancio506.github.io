@@ -20,7 +20,9 @@ const Banner = () => {
                                                 options={{
                                                     strings:
                                                         ['Full Stack Developer',
-                                                            'DevOps Developer'],
+                                                            'DevOps Developer',
+                                                            'Free Software Enthusiast',
+                                                        ],
                                                     autoStart: true,
                                                     loop: true,
                                                 }}
