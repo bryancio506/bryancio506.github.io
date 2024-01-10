@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "projectName": "aguapuracr",
+        "url": "https://www.aguapuracr.com/",
+        "image": "projects/aguapuracr.png",
+        "projectDetail": "As a freelancer for the SANDS advertising agency, I developed a custom page for the ASADA of the community of Santa Elena located in Puntarenas, where the user can consult their pending water bills.",
+        "technologiesUsed": [
+            {
+                "tech": "Express JS"
+            },
+            {
+                "tech": "VanillaJS"
+            },
+            {
+                "tech": "SOAP"
+            },
+            {
+                "tech": "Nginx"
+            }
+        ]
+    }
+]
