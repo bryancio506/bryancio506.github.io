@@ -10,7 +10,7 @@ export const DETAILS = {
 
 export const SKILLS = [
   {
-    title: 'Python Stack Developer',
+    title: 'Full Stack Developer',
     level: '80%',
   },
   {
@@ -29,6 +29,11 @@ export const SKILLS = [
     title: 'DevOps',
     level: '83%',
   },
+  {
+    title: 'Database',
+    level: '70%',
+  },
+
 ];
 
 export const TECH_STACK = [
@@ -40,6 +45,8 @@ export const TECH_STACK = [
   'Golang',
   'GNU/Linux',
   'Kubernetes',
+  'ChartJS',
+  'D3JS',
   'CSS',
   'SCSS',
   'TailwindCSS',

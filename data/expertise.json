@@ -2,26 +2,37 @@
     {
         "id": 0,
         "title": "Full Stack Development",
-        "desc": "I am a skilled MERN stack developer with extensive experience in building robust web applications using MongoDB, Express.js, React.js, and Node.js. I possess a strong understanding of server-side rendering, API integration, and database management. With my expertise, I can deliver dynamic and efficient web solutions tailored to meet the unique requirements of clients."
+        "desc": "During my four years of experience I have developed several web applications from scratch using languages such as Golang, Python, NodeJS, C# mainly, covering various aspects of the development cycle such as interviewing and taking requirements with the client, designing the database and implementing the business logic and the presentation layer, with the use of modern languages and frameworks, as well as design patterns, allowed me to explore modern practices when implementing web applications mainly, such as routers, template engines, MVC model, ORMs and different architectures and communication protocols"
     },
     {
         "id": 1,
         "title": "Scrum and Jira",
-        "desc": "As a developer, I'm proficient in Jira and Scrum methodologies. I use Jira to simplify project management tasks like task assignment, prioritization, and progress tracking. Scrum has improved my teamwork, utilizing daily stand-ups, sprint planning, and retrospectives. My expertise ensures high-quality software products are delivered promptly."
+        "desc": "As a developer in different work teams I have explored different agile methodologies such as Kamban and Scrum, mainly using Jira as a project manager, establishing communication to simplify project management tasks such as task assignment, prioritization and progress tracking. This has improved my teamwork, using daily meetings, sprint planning and retrospectives with teams from the United States and other countries using English as a common language."
     },
     {
         "id": 2,
         "title": "Designing (UI/UX)",
-        "desc": "I am proficient in using design software such as Figma, Adobe XD, and Adobe Illustrator. Through participating in hackathons and freelance work, I have gained practical experience in UI/UX design and graphic design. Designing is my passion, and it has allowed me to continue to develop my creative skills and grow in the field."
+        "desc": "I always seek feedback and actively listen to end users and designers, I am aware of the most used tools such as Figma and Adobe XD, implementing what we want to achieve in this aspect of development"
     },
     {
         "id": 3,
-        "title": "Github",
-        "desc": "GitHub is essential for version control and collaboration. Its intuitive interface and features like pull requests and issue tracking simplify the process. Continuous integration ensures up-to-date code. GitHub is vital to my success as a developer."
+        "title": "Git",
+        "desc": "Mainly using Git and Gitlab as essential tools for control and collaboration in the code, I have always worked on these standards during the experience acquired these years, exploring different mechanisms and integrations that it offers."
     },
     {
-        "id": 4,
-        "title": "Open Source Contributor",
-        "desc": "Open Source is the future. I usually take some time on weekend and contribute into opensource project. It gives me opportunity to learn from best developer's practices and also gives me a chance to help others and contribute into the community for the good."
+        "id" : 4,
+        "title" : "AWS",
+        "desc" : "During my tenure at AWS, I've effectively utilized diverse cloud services to optimize project scalability, reliability, and performance. Notably, I've strategically deployed applications using AWS EC2 instances, emphasizing efficient resource utilization. Storage solutions have centered around the dependable S3, complemented by AWS RDS for well-managed relational databases. Security has been a priority through the adept use of AWS IAM, while intricate network architectures, exemplified in projects like Amazon IoT migration using tools like Mosquitto, Prometheus, and Grafana, showcase my expertise in Amazon VPC. Embracing DevOps practices, I've streamlined workflows by integrating AWS CodePipeline and CodeDeploy, automating the software release process. My familiarity with event-based services, including Amazon Lambda, reflects adaptability to propose tailored solutions based on project needs, showcasing a comprehensive grasp of the AWS ecosystem."
+    },
+    {
+        "id": 5,
+        "title" : "Azure",
+        "desc" : "In my different assignments I have explored different services and the Azure ecosystem in general, I highlight the creation of a pipeline for a solution made in C# doing the entire CI/CD cycle generating some artifacts with the project compilation"
+    },
+    {
+        "id": 6,
+        "title" : "GNU/LINUX",
+        "desc" :"For years I have always been enthusiastic in the use of free technologies and trying different flavors of Linux as a personal use environment and as a development also, I have mainly explored Fedora, Centos, Ubuntu, Debian, ArchLinux showing me how the different components of a operating system and its administration, also in my experience I have had to work on different flavors for both servers and clients, in development and production environments"
     }
+
 ]

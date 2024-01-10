@@ -4,12 +4,10 @@ import axios from "axios";
 import ParagraphSkeleton from "../../Common/ParagraphSkeleton";
 import expertiseData from "../../../data/expertise.json"
 
+
 const MyExpertise = () => {
 
-    const { isLoading, error, data } = useQuery('expertise', () =>
-        axios.get('api/expertise')
-            .then(({ data }) => data)
-            .catch(error => console.error('Error fetching testimonials:', error)))
+    const data = expertiseData;
 
     return (
         <>
@@ -21,7 +19,6 @@ const MyExpertise = () => {
                         <ExpertiseCard key={key} data={item} />
                     ))
                 }
-
             </div>
         </>
     )
