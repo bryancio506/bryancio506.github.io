@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import BannerLayout from '../components/Common/BannerLayout';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp, FaTelegram } from 'react-icons/fa'
 import { SiUpwork } from 'react-icons/si'
 import { HiMail, HiUser } from 'react-icons/hi'
 import { BsChatTextFill } from 'react-icons/bs'
@@ -50,6 +50,8 @@ const Contact = () => {
                 <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
                     <a className='hover:scale-125 ease-in-out duration-700' href="mail:r0ch1bryan@gmail.com" target='_blank' rel="noreferrer"><HiMail /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/bryancio506" target='_blank' rel="noreferrer"><FaGithub /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://wa.me/50688615958" target='_blank' rel="noreferrer"><FaWhatsapp /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://t.me/bryan_romero" target='_blank' rel="noreferrer"><FaTelegram /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/bryan-romero-chinchilla-20b3001b5/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
                     {/* <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iosamajavaid" target='_blank' rel="noreferrer"><FaTwitter /></a>
                     <a className='hover:scale-125 ease-in-out duration-700 hidden sm:block' href="https://www.fiverr.com/codeworthy" target='_blank' rel="noreferrer"><Fiverr_Icon /></a>

@@ -71,4 +71,6 @@ export const SOCIAL_LINKS = {
   LINKEDIN: 'https://www.linkedin.com/in/bryan-romero-chinchilla-20b3001b5/',
   TWITTER: '',
   FACEBOOK: '',
+  TELEGRAM: 'https://t.me/bryan_romero',
+  WHATSAPP: 'https://wa.me/50688615958',
 };
