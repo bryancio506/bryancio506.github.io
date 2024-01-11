@@ -132,3 +132,14 @@ body {
 .textIcon:focus-within #icon {
   color: #23A8F2; /* Change the icon color when the input is focused */
 }
+
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.flicker-animation {
+  animation: flicker 1.5s infinite;
+}

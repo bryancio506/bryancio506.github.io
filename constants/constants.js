@@ -5,7 +5,7 @@ export const DESIGNATION = `Full Stack Engineer | DevOps | IoT`;
 export const DETAILS = {
   Residence: '🇨🇷 Costa Rica',
   City: 'San Jose',
-  Age: '27',
+  // Age: '27',
 };
 
 export const SKILLS = [
@@ -43,6 +43,8 @@ export const TECH_STACK = [
   'NextJS',
   'NodeJS',
   'Golang',
+  'PHP',
+  'C#',
   'GNU/Linux',
   'Kubernetes',
   'ChartJS',

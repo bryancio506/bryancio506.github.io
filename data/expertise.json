@@ -3,7 +3,7 @@
         "id": 0,
         "title": "Full Stack Development",
         "image": "images/stack.png",
-        "desc": "During my four years of experience I have developed several web applications from scratch using languages such as Golang, Python, NodeJS, C# mainly, covering various aspects of the development cycle such as interviewing and taking requirements with the client, designing the database and implementing the business logic and the presentation layer, with the use of modern languages and frameworks, as well as design patterns, allowed me to explore modern practices when implementing web applications mainly, such as routers, template engines, MVC model, ORMs and different architectures and communication protocols"
+        "desc": "During my four years of experience I have developed several web applications from scratch using languages such as Golang, Python, NodeJS, C# and PHP mainly, covering various aspects of the development cycle such as interviewing and taking requirements with the client, designing the database and implementing the business logic and the presentation layer, with the use of modern languages and frameworks, as well as design patterns, allowed me to explore modern practices when implementing web applications mainly, such as routers, template engines, MVC model, ORMs and different architectures and communication protocols"
     },
     {
         "id": 1,
@@ -27,7 +27,7 @@
         "id" : 4,
         "title" : "AWS",
         "image": "images/aws_icon.png",
-        "desc" : "During my tenure at AWS, I've effectively utilized diverse cloud services to optimize project scalability, reliability, and performance. Notably, I've strategically deployed applications using AWS EC2 instances, emphasizing efficient resource utilization. Storage solutions have centered around the dependable S3, complemented by AWS RDS for well-managed relational databases. Security has been a priority through the adept use of AWS IAM, while intricate network architectures, exemplified in projects like Amazon IoT migration using tools like Mosquitto, Prometheus, and Grafana, showcase my expertise in Amazon VPC. Embracing DevOps practices, I've streamlined workflows by integrating AWS CodePipeline and CodeDeploy, automating the software release process. My familiarity with event-based services, including Amazon Lambda, reflects adaptability to propose tailored solutions based on project needs, showcasing a comprehensive grasp of the AWS ecosystem."
+        "desc" : "During my tenure at AWS, I effectively utilized various cloud services to optimize project scalability, reliability, and performance. In particular, I have strategically deployed applications using AWS EC2 instances, as well as storage solutions have focused on reliable use of S3, complemented by AWS RDS, while security has been a priority through expert use of AWS IAM, while complex network architectures with the use of Amazon VPC. My familiarity with event-driven services, for example Amazon Lambda, reflects adaptability to propose custom solutions based on project needs, demonstrating a comprehensive understanding of the AWS ecosystem."
     },
     {
         "id": 5,

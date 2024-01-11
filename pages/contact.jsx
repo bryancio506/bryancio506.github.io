@@ -8,6 +8,11 @@ import Fiverr_Icon from '../components/Fiverr_Icon';
 import Footer from '../components/Footer';
 import { Modal } from 'antd';
 
+
+import CalendlyEmbed from '../components/Common/CalendlyEmbed';
+import CalendlyEvent from '../components/Common/CalendlyEvent';
+
+
 const Contact = () => {
     const [isOpen, setIsOpen] = useState(false)
 
@@ -58,12 +63,24 @@ const Contact = () => {
                     <a className='hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1' href="#" target='_blank' rel="noreferrer"><SiUpwork /></a> */}
                 </div>
 
+{/* 
+                <div className="h-30 w-full text-Snow">
+                    
+                    <h1 className='text-lg font-bold'>Schedule an Appointment</h1>
+                    <CalendlyEmbed url="https://calendly.com/r0ch1bryan/call-meeting-1" />
+                </div> */}
+                {/* <div className="min-h-screen flex flex-col items-center justify-center">
+                <h1 className="text-3xl font-bold mb-4">My Next.js Calendly Event</h1>
+                <div className="w-full md:w-2/3 lg:w-1/2">
+                    <CalendlyEvent url={"https://calendly.com/r0ch1bryan/call-meeting-1"} />
+                </div>
+                </div> */}
 
                 <div className="my-12 w-full h-auto text-Snow">
-                    <h1 className='text-lg font-bold'>Get In Touch</h1>
-                    <div className="mt-4 py-8 px-8 bg-EveningBlack rounded-xl text-sm">
+                    <h1 className='text-lg font-bold'>Get in touch!</h1>
+                    <div className="mt-4 py-8 px-8 bg-EveningBlack rounded-xl text-sm items-center justify-center  flex flex-col">
                         <div>
-                            <div className="flex flex-col w-full">
+                            {/* <div className="flex flex-col w-full">
                                 <div className="userIcon relative mb-6">
                                     <div id="icon" className="absolute inset-y-0 left-0 flex items-center pl-3 text-xl pointer-events-none">
                                         <HiUser />
@@ -87,12 +104,12 @@ const Contact = () => {
                                         <BsChatTextFill />
                                     </div>
                                     <textarea rows={6} cols={50} className="input_stylings" placeholder="Message" />
-                                </div>
-                            </div>
-
-                            <div className="my-4">
-                                <button onClick={() => setIsOpen(true)} className="button"> SEND MESSAGE </button>
-                            </div>
+                                </div>Calendly-Logo.png
+                            </div> */}
+                        <div className="my-4">
+                            <img src="images/Calendly-Logo.png"  alt="Thumbnail" style={{ width: '200px' }} />
+                            <a href="https://calendly.com/r0ch1bryan/call-meeting-1" className="button flicker-animation"> Schedule a meeting </a>
+                        </div>
                         </div>
                     </div>
                 </div>
