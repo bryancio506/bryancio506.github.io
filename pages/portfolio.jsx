@@ -25,6 +25,9 @@ const Portfolio = () => {
 
 
             </div >
+            <br />
+            <br />
+            <br />
             <Footer />
         </BannerLayout >
     );

@@ -22,7 +22,8 @@ const Contact = () => {
                 <div className="my-6 text-Snow flex flex-col gap-y-5">
                     <h1 className='text-lg font-bold'>Contact Information</h1>
                     <div className="flex flex-col md:flex-row items-center gap-5 text-xs">
-                        <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
+                        <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
+                           
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Country:</span>
                                 <span className='text-LightGray md:text-sm'>Costa Rica</span>
@@ -31,6 +32,7 @@ const Contact = () => {
                                 <span className='md:text-base'>City:</span>
                                 <span className='text-LightGray md:text-sm'>San Jose</span>
                             </div>
+                            <br />
                             {/* <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Company:</span>
                                 <span className='text-LightGray md:text-sm'>CodeWorthy</span>
@@ -39,21 +41,35 @@ const Contact = () => {
                         <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Email:</span>
-                                <span className='text-LightGray text-sm'>r0ch1bryan@gmail.com</span>
+                                <span className='text-LightGray text-sm text-decoration-line: underline'>
+                                    <a  href="mailto:r0ch1bryan@gmail.com" target='_blank' rel="noreferrer">
+                                    r0ch1bryan@gmail.com
+                                    </a>
+                                    
+                                </span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Linkedin:</span>
-                                <span className='text-LightGray text-sm'>bryan-romero-chinchilla-20b3001b5</span>
+                                <span className='text-LightGray text-sm text-decoration-line: underline'>
+                                    <a href="https://www.linkedin.com/in/bryan-romero-chinchilla-20b3001b5/" target='_blank' rel="noreferrer">
+                                        bryan-romero-chinchilla-20b3001b5
+                                    </a>
+                                </span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Phone:</span>
-                                <span className='text-LightGray text-sm'>+506 88615958</span>
+                                <span className='text-LightGray text-sm text-decoration-line: underline'>
+                                    <a href="https://wa.me/50688615958" target='_blank' rel="noreferrer">
+                                        +506 88615958
+                                    </a>
+                                    
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
-                    <a className='hover:scale-125 ease-in-out duration-700' href="mail:r0ch1bryan@gmail.com" target='_blank' rel="noreferrer"><HiMail /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="mailto:r0ch1bryan@gmail.com" target='_blank' rel="noreferrer"><HiMail /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/bryancio506" target='_blank' rel="noreferrer"><FaGithub /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://wa.me/50688615958" target='_blank' rel="noreferrer"><FaWhatsapp /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://t.me/bryan_romero" target='_blank' rel="noreferrer"><FaTelegram /></a>
@@ -108,7 +124,9 @@ const Contact = () => {
                             </div> */}
                         <div className="my-4">
                             <img src="images/Calendly-Logo.png"  alt="Thumbnail" style={{ width: '200px' }} />
-                            <a href="https://calendly.com/r0ch1bryan/call-meeting-1" className="button flicker-animation"> Schedule a meeting </a>
+                            <a href="https://calendly.com/r0ch1bryan/call-meeting-1" className="button flicker-animation" target='_blank' rel="noreferrer">
+                                 Schedule a meeting 
+                            </a>
                         </div>
                         </div>
                     </div>
