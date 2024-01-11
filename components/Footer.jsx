@@ -2,7 +2,7 @@ import { AiFillCopyrightCircle } from 'react-icons/ai'
 import { MdMail } from 'react-icons/md'
 import { AiOutlineWhatsApp } from 'react-icons/ai'
 import { FaDownload} from 'react-icons/fa';
-import Download from './Common/intro/Download';
+import Download from '../components/Common/Intro/Download';
 
 const Footer = () => {
     return (
