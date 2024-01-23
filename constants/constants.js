@@ -39,7 +39,7 @@ export const SKILLS = [
 export const TECH_STACK = [
   'Python',
   'ReactJS',
-  'JavaScript',
+  'TypeScript',
   'NextJS',
   'NodeJS',
   'Golang',
