@@ -7,7 +7,7 @@ const Exp_Card = ({ data }) => {
             <div className="card_stylings transition px-8 py-10 ">
                 <div className="flex items-center">
                         {/* Add your img tag here */}
-                        <img src={data.image} alt="Icon" className="background-icon mr-2"/>
+                        <img src={data.image} alt="Icon" className="background-icon mr-2" style={{ width: '40px' }}/>
                         <div className="flex-initial text-[17px] text-Snow font-medium">{data.title}</div>
                 </div>
                 <div className="text-sm text-LightGray font-normal italic mt-1 ">

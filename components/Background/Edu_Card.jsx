@@ -11,7 +11,7 @@ const Edu_Card = ({ data }) => {
                 <div className="flex justify-between">
                     <div className="flex items-center">
                         {/* Add your img tag here */}
-                        <img src={data.image} alt="Icon" className="background-icon  mr-2" />
+                        <img src={data.image} alt="Icon" className="background-icon  mr-2" style={{ width: '40px' }} />
                         <div className="flex-initial text-[17px] text-Snow font-medium">{data.title}</div>
                     </div>
                     <div className="flex justify-items-center justify-center text-LightGray bg-DeepNightBlack ml-2 w-32 lg:w-28 h-10 text-xs rounded-full py-3 font-normal opacity-50 text-center">
