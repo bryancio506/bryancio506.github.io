@@ -143,3 +143,11 @@ body {
 .flicker-animation {
   animation: flicker 1.5s infinite;
 }
+
+.text-Snow .tex-download {
+  font-size: large;
+}
+
+.flicker-animation .footer-download{
+  font-size: large;
+}

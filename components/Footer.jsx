@@ -18,8 +18,8 @@ const Footer = () => {
                 <div className='flex items-center'>
 
                     <a href='/Bryan_Romero_Chinchilla_CV.pdf' target='_blank' className='flex items-center gap-x-4'>
-                    <span className='text-Snow'>Download Resume</span>
-                    <span className="flicker-animation" ><FaDownload/></span>
+                    <span className='text-Snow tex-download '>Download Resume</span>
+                    <span className="flicker-animation footer-download" ><FaDownload/></span>
                     </a>
                 </div>
                 {/* <div className="flex items-center">

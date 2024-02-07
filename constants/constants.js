@@ -70,7 +70,7 @@ export const CONTACTS = {
 };
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/bryancio506',
-  LINKEDIN: 'https://www.linkedin.com/in/bryan-romero-chinchilla-20b3001b5/',
+  LINKEDIN: 'https://www.linkedin.com/in/bryan-romero-chinchilla/',
   TWITTER: '',
   FACEBOOK: '',
   TELEGRAM: 'https://t.me/bryan_romero',

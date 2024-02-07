@@ -51,8 +51,8 @@ const Contact = () => {
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Linkedin:</span>
                                 <span className='text-LightGray text-sm text-decoration-line: underline'>
-                                    <a href="https://www.linkedin.com/in/bryan-romero-chinchilla-20b3001b5/" target='_blank' rel="noreferrer">
-                                        bryan-romero-chinchilla-20b3001b5
+                                    <a href="https://www.linkedin.com/in/bryan-romero-chinchilla/" target='_blank' rel="noreferrer">
+                                        bryan-romero-chinchilla
                                     </a>
                                 </span>
                             </div>
@@ -73,7 +73,7 @@ const Contact = () => {
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/bryancio506" target='_blank' rel="noreferrer"><FaGithub /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://wa.me/50688615958" target='_blank' rel="noreferrer"><FaWhatsapp /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://t.me/bryan_romero" target='_blank' rel="noreferrer"><FaTelegram /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/bryan-romero-chinchilla-20b3001b5/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/bryan-romero-chinchilla/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
                     {/* <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iosamajavaid" target='_blank' rel="noreferrer"><FaTwitter /></a>
                     <a className='hover:scale-125 ease-in-out duration-700 hidden sm:block' href="https://www.fiverr.com/codeworthy" target='_blank' rel="noreferrer"><Fiverr_Icon /></a>
                     <a className='hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1' href="#" target='_blank' rel="noreferrer"><SiUpwork /></a> */}
