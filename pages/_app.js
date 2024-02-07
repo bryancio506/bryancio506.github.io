@@ -5,10 +5,13 @@ import ReactGA from 'react-ga';
 import Layout from './layout'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { useEffect } from 'react';
+import { useRouter } from 'next/router'; // Add this import
 
 const queryClient = new QueryClient()
 
 export default function App({ Component, pageProps }) {
+
+  const router = useRouter(); // Initialize router
 
   useEffect(() => {
     ReactGA.initialize('G-0QD8PNG4RM');
