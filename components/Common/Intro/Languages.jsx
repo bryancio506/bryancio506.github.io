@@ -32,19 +32,19 @@ const Languages = () => {
                 <span className='text-Snow text-xs font-bold'>Languages</span>
                 <div className="flex flex-row flex-wrap items-center justify-center space-x-6">
                     <div className="flex flex-col items-center justify-center gap-y-2">
-                        <Progress strokeColor="#23A8F2" type="circle" percent={spanish} size={75} />
+                        <Progress strokeColor="#23A8F2" type="circle" percent={spanish} size={72} />
                         <span className='text-xs font-bold text-Snow'>Spanish</span>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-y-2">
-                        <Progress strokeColor="#23A8F2" type="circle" percent={english} size={75} />
+                        <Progress strokeColor="#23A8F2" type="circle" percent={english} size={72} />
                         <span className='text-xs font-bold text-Snow'>English</span>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-y-2">
-                        <Progress strokeColor="#23A8F2" type="circle" percent={portuguese} size={75} />
+                        <Progress strokeColor="#23A8F2" type="circle" percent={portuguese} size={72} />
                         <span className='text-xs font-bold text-Snow'>Portuguese</span> {/* Step 3: New Progress component */}
                     </div>
                     <div className="flex flex-col items-center justify-center gap-y-2">
-                        <Progress strokeColor="#23A8F2" type="circle" percent={japanese} size={75} />
+                        <Progress strokeColor="#23A8F2" type="circle" percent={japanese} size={72} />
                         <span className='text-xs font-bold text-Snow'>Japanese</span> {/* Step 3: New Progress component */}
                     </div>
                 </div>
