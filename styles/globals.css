@@ -151,3 +151,8 @@ body {
 .footer-download{
   font-size: x-large;
 }
+
+.background-icon {
+  width: '40px';
+  border-radius: 10px;
+}
