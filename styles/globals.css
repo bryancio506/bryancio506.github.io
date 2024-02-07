@@ -144,10 +144,10 @@ body {
   animation: flicker 1.5s infinite;
 }
 
-.text-Snow .tex-download {
-  font-size: large;
+.tex-download {
+  font-size: x-large;
 }
 
-.flicker-animation .footer-download{
-  font-size: large;
+.footer-download{
+  font-size: x-large;
 }
