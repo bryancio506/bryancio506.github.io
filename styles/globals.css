@@ -153,6 +153,6 @@ body {
 }
 
 .background-icon {
-  width: '40px';
+  width: '40px' !important;
   border-radius: 10px;
 }
