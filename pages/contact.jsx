@@ -42,8 +42,8 @@ const Contact = () => {
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Email:</span>
                                 <span className='text-LightGray text-sm text-decoration-line: underline'>
-                                    <a  href="mailto:r0ch1bryan@gmail.com" target='_blank' rel="noreferrer">
-                                    r0ch1bryan@gmail.com
+                                    <a  href="mailto:bryan.romero.chinchilla@gmail.com" target='_blank' rel="noreferrer">
+                                    bryan.romero.chinchilla@gmail.com
                                     </a>
                                     
                                 </span>
@@ -69,7 +69,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
-                    <a className='hover:scale-125 ease-in-out duration-700' href="mailto:r0ch1bryan@gmail.com" target='_blank' rel="noreferrer"><HiMail /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="mailto:bryan.romero.chinchilla@gmail.com" target='_blank' rel="noreferrer"><HiMail /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/bryancio506" target='_blank' rel="noreferrer"><FaGithub /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://wa.me/50688615958" target='_blank' rel="noreferrer"><FaWhatsapp /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://t.me/bryan_romero" target='_blank' rel="noreferrer"><FaTelegram /></a>

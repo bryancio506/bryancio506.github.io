@@ -20,4 +20,25 @@
             }
         ]
     }
+    {
+        "id": 1,
+        "projectName": "WeArtPlay",
+        "url": "https://artplay.academy/",
+        "image": "projects/aguapuracr.png",
+        "projectDetail": "Empowering Music Education: WeArtPlay Website Revamp: For the we art play music school, improvements were made at a graphic level, refactoring and optimization for the academy made in WordPress",
+        "technologiesUsed": [
+            {
+                "tech": "WordPress"
+            },
+            {
+                "tech": "Plugins"
+            },
+            {
+                "tech": "Javascript"
+            },
+            {
+                "tech": "PHP"
+            }
+        ]
+    }
 ]
