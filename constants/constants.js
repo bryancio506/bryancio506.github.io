@@ -65,7 +65,7 @@ export const TECH_STACK = [
 ];
 
 export const CONTACTS = {
-  EMAIL: 'r0ch1bryan@gmail.com',
+  EMAIL: 'bryan.romero.chinchilla@gmail.com',
   PHONE: '+50688615958',
 };
 export const SOCIAL_LINKS = {
