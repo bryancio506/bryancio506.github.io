@@ -1,10 +1,12 @@
-import '../styles/globals.css'
-import MesureMetrics from '../components/Common/MesureMetrics'
-
+// pages/_app.js
+import '../styles/globals.css';
+import MesureMetrics from '../components/Common/MesureMetrics';
 import ReactGA from 'react-ga';
-import Layout from './layout'
-import { QueryClient, QueryClientProvider } from 'react-query'
-import { useRouter } from 'next/router'; 
+import Layout from './layout';
+import { QueryClient, QueryClientProvider } from 'react-query';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+import Script from 'next/script';
 
 const queryClient = new QueryClient();
 const GA_TRACKING_ID = 'G-0QD8PNG4RM'; // Replace with your actual Tracking ID
