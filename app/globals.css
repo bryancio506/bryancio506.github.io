@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+  --bg-soft: #fafaf9;
+  --line: #e7e5e4;
+  --ink: #18181b;
+  --ink-soft: #3f3f46;
+  --ink-muted: #71717a;
+  --accent: #2f6df0;
+}
+
+.dark {
+  --bg: #0b0b0d;
+  --bg-soft: #141416;
+  --line: #26262b;
+  --ink: #f4f4f5;
+  --ink-soft: #d4d4d8;
+  --ink-muted: #9a9aa2;
+  --accent: #5b8cff;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* thin, quiet scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+@layer utilities {
+  .bg-base { background: var(--bg); }
+  .bg-soft { background: var(--bg-soft); }
+  .border-line { border-color: var(--line); }
+  .text-ink { color: var(--ink); }
+  .text-ink-soft { color: var(--ink-soft); }
+  .text-ink-muted { color: var(--ink-muted); }
+  .text-accent { color: var(--accent); }
+  .shell { @apply mx-auto w-full max-w-content px-6 sm:px-8; }
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.18em] text-ink-muted;
+  }
+}
+
+/* Monochrome logo wall: force any logo (colored or not) to one tone,
+   muted by default, full on hover. Works in light and dark. */
+.logo-mono {
+  filter: grayscale(1) brightness(0);
+  opacity: 0.5;
+  transition: opacity 0.25s ease, filter 0.25s ease;
+}
+.logo-mono:hover {
+  opacity: 0.9;
+}
+.dark .logo-mono {
+  filter: grayscale(1) brightness(0) invert(1);
+  opacity: 0.62;
+}
+.dark .logo-mono:hover {
+  opacity: 1;
+}
+
+/* Hero cellular-automata backdrop */
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--hero-img);
+  background-size: cover;
+  background-position: right top;
+  opacity: 0.16;
+  pointer-events: none;
+  mask-image: radial-gradient(120% 90% at 85% 0%, rgba(0,0,0,0.95), transparent 70%);
+  -webkit-mask-image: radial-gradient(120% 90% at 85% 0%, rgba(0,0,0,0.95), transparent 70%);
+}
+.dark .hero-bg::before {
+  opacity: 0.6;
+}
+
+.link-underline {
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+.link-underline:hover {
+  background-size: 100% 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; animation: none !important; }
+}
