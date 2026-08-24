@@ -6,7 +6,7 @@
 export const profile = {
   name: 'Bryan Romero Chinchilla',
   role: 'Software Engineer',
-  tagline: 'Backend & integrations, end-to-end.',
+  tagline: 'Backend & integrations, from the plant floor to the cloud.',
   location: 'San José, Costa Rica',
   yearsExp: '6+',
   available: true,
@@ -26,7 +26,7 @@ export const profile = {
 };
 
 export const heroIntro =
-  'I build the APIs, integrations, and systems behind operational software. I started in manufacturing — owning a plant-wide system end-to-end as the sole developer — and have since focused on connecting enterprise and legacy systems, keeping high-availability services healthy, and automating the manual work in between.';
+  'I build the APIs, integrations, and systems behind operational software. I started in manufacturing — owning a plant-wide system end-to-end as the sole developer — and have since spent my time at the seam between machines and the cloud: production lines over OPC UA and MQTT, legacy systems over SOAP, high-availability services kept healthy, and the manual work in between automated away.';
 
 // Recognizable brands, shown as a monochrome logo wall.
 export const companies: { name: string; logo: string }[] = [
@@ -92,9 +92,10 @@ export const experience: Job[] = [
       'Developed, maintained, and optimized plant-critical enterprise apps and internal APIs (Python, C#/.NET, Node.js).',
       'Maintained a legacy Oracle system writing stored procedures and views in PL/SQL, plus T-SQL on SQL Server.',
       'Rebuilt a KPI report from a ~2-hour query to a few seconds with a Redis caching layer.',
+      'Integrated a production machine with Python over OPC UA and MQTT — reading and writing PLC control tags coordinated with the machine vendor’s mechatronics engineer — and built the web interface operators used inside that station’s work cycle.',
       'Built Power BI and Tableau dashboards for supervisors.',
     ],
-    tags: ['C#/.NET', 'SQL Server', 'Oracle · PL/SQL', 'Redis', 'Power BI'],
+    tags: ['C#/.NET', 'SQL Server', 'Oracle · PL/SQL', 'OPC UA', 'MQTT', 'Redis'],
   },
   {
     company: 'Freelance · Navigator',
@@ -130,13 +131,13 @@ export const experience: Job[] = [
     role: 'Software Developer',
     period: '2021 – 2022',
     location: 'Costa Rica',
-    summary: 'Built CI/CD, data pipelines, and event-driven infrastructure.',
+    summary: 'Built CI/CD, data pipelines, and the messaging layer for a SCADA system.',
     bullets: [
       'Built CI/CD pipelines from scratch (Jenkins, SonarQube) for Flask and C#/.NET projects; wrote tests with pytest.',
       'Built a PySpark pipeline on Azure Databricks merging multiple Salesforce sources into a unified dataset.',
-      'Designed an MQTT (Mosquitto) event-driven broker with Prometheus/Grafana dashboards for a SCADA system.',
+      'Built an MQTT broker (Mosquitto) from scratch for a SCADA irrigation system with sensors and actuators, capturing its temperature, pressure and irrigation tags — replacing a costly AWS IoT Core deployment — and the Prometheus/Grafana monitoring on top of it.',
     ],
-    tags: ['Jenkins', 'PySpark', 'Databricks', 'MQTT', 'Docker'],
+    tags: ['MQTT · Mosquitto', 'SCADA', 'Prometheus', 'Grafana', 'Jenkins', 'PySpark', 'Docker'],
   },
   {
     company: 'Unilever',
@@ -149,9 +150,10 @@ export const experience: Job[] = [
       'As the sole developer, ran the full SDLC to build a Go-based plant-wide system, meeting FDA/Quality traceability.',
       'Digitized paper processes across roughly 18 production lines.',
       'Built Python/Flask microservices and REST APIs for operational reporting.',
+      'Collaborated on the logic layer of two OPC server/gateway devices that captured production-line tags and fed them into an Azure Data Lake consumed by a statistics team abroad.',
       'Built real-time KPI dashboards (Power BI, Chart.js, D3.js) for OEE and giveaway.',
     ],
-    tags: ['Go', 'Python', 'Flask', 'SQL Server', 'Power BI', 'D3.js'],
+    tags: ['Go', 'Python', 'Flask', 'OPC UA', 'Azure Data Lake', 'D3.js'],
   },
   {
     company: 'Etiprés',
@@ -184,6 +186,20 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    title: 'SCADA Irrigation Telemetry',
+    context: 'Industrial IoT · edge-to-cloud messaging',
+    year: '2021–22',
+    role: 'Cecropia Solutions · US cannabis-growing client',
+    description:
+      'The messaging and monitoring layer around a SCADA irrigation system with sensors and actuators. I built the MQTT broker from scratch to replace a costly AWS IoT Core deployment, captured the system’s temperature, pressure and irrigation tags, and put observability on top of them.',
+    highlights: [
+      'Mosquitto broker built from scratch, replacing AWS IoT Core to cut operating cost',
+      'Temperature, pressure and irrigation tags captured off the SCADA system',
+      'Prometheus/Grafana dashboards and alerting over the live tag stream',
+    ],
+    stack: ['MQTT', 'Mosquitto', 'SCADA', 'Prometheus', 'Grafana', 'Docker'],
+  },
   {
     title: 'Caseta Inteligente',
     context: 'Computer-vision access control',
@@ -248,12 +264,13 @@ export const projects: Project[] = [
 ];
 
 export const aboutBio = [
-  'I’m a software engineer with 6+ years building and integrating the systems operations run on. My path started on the plant floor at Unilever, where I was the sole developer of a plant-wide MES, and moved through manufacturing IT, courier-tracking platforms, and enterprise integrations.',
-  'I like getting to the root cause of a problem and then automating it away — whether that’s a script, a monitoring dashboard, or a small AI helper. Lately that’s meant Microsoft 365 automation and applied computer vision, alongside the backend and DevOps work that’s always been my base.',
+  'I’m a software engineer with 6+ years building and integrating the systems operations run on. My path started on the plant floor at Unilever, where I was the sole developer of a plant-wide MES, and moved through manufacturing IT, industrial IoT, courier-tracking platforms, and enterprise integrations.',
+  'A lot of that work sits at the seam between machines and software — OPC UA, MQTT and PLC tags on one side, REST APIs and cloud services on the other. I like getting to the root cause of a problem and then automating it away, whether that’s a script, a monitoring dashboard, or a small AI helper.',
+  'Day to day I ship with Claude Code as my primary development tool — project context files, MCP servers, the whole workflow — and I’m currently learning LangChain and RAG. Recent work has meant Microsoft 365 automation and applied computer vision, alongside the backend and DevOps base that’s always been there.',
 ];
 
 export const education = [
-  { school: 'Tecnológico de Costa Rica', degree: 'B.S. Computer Science Engineering', period: '2017 – 2022', logo: '/images/tec.svg' },
+  { school: 'Tecnológico de Costa Rica', degree: 'Computer Science Engineering — advanced coursework (incomplete)', period: '2017 – 2020', logo: '/images/tec.svg' },
   { school: 'CTP Mercedes Norte', degree: 'Technical — Business Informatics', period: '2013 – 2015', logo: '/images/ctp_mercedes_norte.jpg' },
 ];
 
@@ -266,8 +283,32 @@ export const certifications = [
 export const capabilities: { group: string; items: string[] }[] = [
   { group: 'Languages', items: ['Python', 'Go', 'C# / .NET', 'Node.js', 'TypeScript', 'JavaScript', 'SQL'] },
   { group: 'Backend & APIs', items: ['FastAPI', 'Flask', 'Express', 'REST', 'SOAP', 'webhooks', 'microservices', 'PL/SQL · T-SQL'] },
-  { group: 'Frontend', items: ['Next.js', 'HTML / CSS', 'Tailwind', 'Chart.js', 'D3.js'] },
+  {
+    group: 'IoT & industrial protocols',
+    items: [
+      'MQTT · Mosquitto',
+      'OPC UA',
+      'SCADA integration',
+      'PLC tag read/write',
+      'OPC server/gateway',
+      'edge-to-cloud telemetry',
+      'UDP',
+      'Prometheus',
+      'Grafana',
+    ],
+  },
   { group: 'Cloud & DevOps', items: ['Azure (AKS, DevOps, Service Bus, Cosmos DB)', 'DigitalOcean', 'Docker', 'CI/CD', 'Nginx', 'Linux / RHEL', 'Git'] },
-  { group: 'Data & AI', items: ['PySpark', 'Databricks', 'Azure Data Lake', 'Power BI', 'Tableau', 'scikit-learn', 'YOLO', 'OpenCV'] },
+  { group: 'Data & ML', items: ['PySpark', 'Databricks', 'Azure Data Lake', 'Power BI', 'Tableau', 'scikit-learn', 'YOLO', 'OpenCV'] },
+  {
+    group: 'AI-assisted development',
+    items: [
+      'Claude Code (daily driver)',
+      'MCP servers',
+      'CLAUDE.md project context',
+      'AI Builder (custom GPT prompt)',
+      'learning: LangChain · RAG',
+    ],
+  },
+  { group: 'Frontend', items: ['Next.js', 'HTML / CSS', 'Tailwind', 'Chart.js', 'D3.js'] },
   { group: 'Databases', items: ['SQL Server', 'Oracle', 'PostgreSQL', 'Cosmos DB', 'Redis'] },
 ];
