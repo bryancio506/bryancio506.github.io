@@ -44,7 +44,7 @@ export default function Hero() {
             >
               Get in touch
             </a>
-            <a href="#experience" className="link-underline text-sm text-ink-soft">
+            <a href="#projects" className="link-underline text-sm text-ink-soft">
               See my work ↓
             </a>
           </div>

@@ -2,7 +2,7 @@ import { companies } from '@/data/content';
 
 export default function Companies() {
   return (
-    <section className="shell mt-20 sm:mt-28">
+    <section className="shell mt-24 sm:mt-32">
       <p className="eyebrow">Experience across</p>
       <div className="mt-6 flex flex-wrap items-center gap-x-10 gap-y-6 sm:gap-x-16">
         {companies.map((c) => (

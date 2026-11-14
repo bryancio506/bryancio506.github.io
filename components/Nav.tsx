@@ -2,9 +2,9 @@ import ThemeToggle from './ThemeToggle';
 import { profile } from '@/data/content';
 
 const links = [
+  { href: '#projects', label: 'Work' },
   { href: '#experience', label: 'Experience' },
   { href: '#about', label: 'About' },
-  { href: '#projects', label: 'Work' },
   { href: '#contact', label: 'Contact' },
 ];
 
